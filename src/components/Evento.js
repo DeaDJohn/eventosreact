@@ -17,7 +17,7 @@ const Evento = ({evento}) => {
             <div className="uk-card uk-card-default">
                 <div className="uk-card-media-top">
                     {evento.logo 
-                        ? <img src={evento.logo.url} alt={evento.name.text} width="100%" uk-img/>
+                        ? <img src={evento.logo.url} alt={evento.name.text} width="100%" uk-img="true"/>
                         : null
                     }
                     <div className="uk-card-body">
